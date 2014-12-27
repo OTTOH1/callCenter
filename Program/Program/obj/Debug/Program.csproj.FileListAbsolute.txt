@@ -1,1 +1,6 @@
 C:\version-control\callCenter\Program\Program\bin\Debug\Program.exe.config
+C:\version-control\callCenter\Program\Program\bin\Debug\Program.exe
+C:\version-control\callCenter\Program\Program\bin\Debug\Program.pdb
+C:\version-control\callCenter\Program\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+C:\version-control\callCenter\Program\Program\obj\Debug\Program.exe
+C:\version-control\callCenter\Program\Program\obj\Debug\Program.pdb

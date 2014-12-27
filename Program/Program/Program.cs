@@ -12,4 +12,19 @@ namespace Program
         {
         }
     }
+
+    class Operator
+    {
+        public int Id { get; set; }
+    }
+
+    class TM : Operator
+    {
+
+    }
+
+    class M : Operator
+    {
+
+    }
 }
