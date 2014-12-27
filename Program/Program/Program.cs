@@ -16,6 +16,7 @@ namespace Program
     class Operator
     {
         public int Id { get; set; }
+        public bool Free { get; set; }
     }
 
     class TM : Operator
