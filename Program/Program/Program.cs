@@ -10,21 +10,27 @@ namespace Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 
-    class Operator
+    abstract class Employee
     {
         public int Id { get; set; }
         public bool Free { get; set; }
     }
 
-    class TM : Operator
+    class Operator : Employee
     {
 
     }
 
-    class M : Operator
+    class TM : Employee
+    {
+
+    }
+
+    class M : Employee
     {
 
     }
