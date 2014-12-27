@@ -10,6 +10,30 @@ namespace Program
     {
         static void Main(string[] args)
         {
+            Operator operator1 = new Operator();
+            operator1.Free = true;
+            operator1.Id = 1;
+
+            Operator operator4 = new Operator();
+            operator4.Free = true;
+            operator4.Id = 4;
+
+            TM operator2 = new TM();
+            operator2.Free = false;
+            operator2.Id = 2;
+
+            M operator3 = new M();
+            operator3.Free = false;
+            operator3.Id = 3;
+
+            CallCenter callCenter = new CallCenter();
+
+            callCenter.Add(operator1);
+            callCenter.Add(operator2);
+            callCenter.Add(operator3);
+            callCenter.Add(operator4);
+
+            Console.WriteLine(callCenter.getCallHandler().Id);
 
         }
     }
@@ -68,7 +92,7 @@ namespace Program
                 }
             }
 
-            Random rnd = new Random();
+            Random rnd = new Random((int)DateTime.Now.Ticks);
 
             if (FreeOperators.Count > 0)
             {
